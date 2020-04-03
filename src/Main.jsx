@@ -10,7 +10,7 @@ const Main = () => (
                 <span>Я Front-end разработчик.</span>
             </div>
             <div className={styles.photo}>
-                <img src="#link" alt=""/>
+                <img src="" alt=""/>
             </div>
         </div>
     </div>
