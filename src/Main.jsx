@@ -4,7 +4,7 @@ import styles from './Main.module.css'
 const Main = () => (
     <div className={styles.main}>
         <div className={styles.container}>
-            <div className={styles.greating}>
+            <div className={styles.greeting}>
                 <span>Привет!</span>
                 <span>Меня зовут Вадим Красовский</span>
                 <span>Я Front-end разработчик.</span>

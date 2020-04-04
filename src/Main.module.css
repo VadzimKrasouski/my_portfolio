@@ -3,9 +3,11 @@
     background-color: #ffcaf3;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
+    height: 80%;
     width: 80%;
     border: 1px solid;
     display: flex;
@@ -13,7 +15,7 @@
     justify-content: space-around;
 }
 
-.greating {
+.greeting {
     display: flex;
     flex-direction: column;
 }
