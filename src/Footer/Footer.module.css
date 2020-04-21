@@ -1,4 +1,35 @@
 .footer {
     height: 300px;
     background-color: rgb(23, 255, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80%;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialLinks {
+    width: 560px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+}
+
+.copyright {
+
 }

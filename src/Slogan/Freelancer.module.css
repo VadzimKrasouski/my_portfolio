@@ -1,0 +1,25 @@
+.freelancer {
+    height: 200px;
+    background-color: rgb(255, 176, 117);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 60%;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+
+}
+
+.link {
+
+}

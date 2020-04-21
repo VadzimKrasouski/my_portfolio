@@ -1,4 +1,54 @@
 .contacts {
     height: 100vh;
     background-color: #ff6b66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80%;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+   justify-content: center;
+    height: 150px;
+    width: 100%;
+
+    border: 1px solid
+}
+
+.contactForm {
+    border: 1px solid;
+    height: 500px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+
+.contactForm form {
+    width: 100%;
+}
+
+.name input{
+    width: 100%;
+}
+
+.email input {
+    width: 100%;
+}
+
+.message textarea {
+    width: 100%;
+}
+
+.button {
+
 }

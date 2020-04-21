@@ -8,7 +8,7 @@ const SkillBlock = () => (
                 <img src="" alt=""/>
             </div>
             <div className={styles.title}>
-                <span>React</span>
+                <h3>React</h3>
             </div>
         </div>
         <div className={styles.description}>
