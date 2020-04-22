@@ -4,25 +4,13 @@ import styles from './Contacts.module.css'
 const Contacts = () => (
     <div className={styles.contacts}>
         <div className={styles.container}>
-            <div className={styles.title}>
-                <h3>Контакты</h3>
-            </div>
-            <div className={styles.contactForm}>
-                <form action="#">
-                    <div className={styles.name}>
-                        <input type="text" placeholder="Name"/>
-                    </div>
-                    <div className={styles.email}>
-                        <input type="email" placeholder="E-mail"/>
-                    </div>
-                    <div className={styles.message}>
-                        <textarea  rows="7" placeholder="Your message"/>
-                    </div>
-                    <div className={styles.button}>
-                        <button type="submit">Send message</button>
-                    </div>
-                </form>
-            </div>
+            <span className={styles.title}>Контакты</span>
+            <form className={styles.contactForm}>
+                <input className={styles.name} type="text" placeholder="Name"/>
+                <input className={styles.email} type="email" placeholder="E-mail"/>
+                <textarea className={styles.message} rows="7" placeholder="Your message"/>
+                <button className={styles.btnSubmit} type="submit">Send message</button>
+            </form>
         </div>
     </div>
 );

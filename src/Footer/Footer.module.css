@@ -15,9 +15,12 @@
     align-items: center;
     justify-content: space-around;
 }
+.title {
+
+}
 
 .socialLinks {
-    width: 560px;
+    min-width: 40%;
     border: 1px solid;
     display: flex;
     align-items: center;

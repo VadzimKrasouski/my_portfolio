@@ -4,17 +4,11 @@ import styles from './ProjectBlock.module.css'
 const ProjectBlock = () => (
     <div className={styles.projectBlock}>
         <div className={styles.projectCover}>
-            <div className={styles.cover}>
-                <img src="" alt=""/>
-            </div>
-            <div className={styles.open}>
-                <button>Смотреть</button>
-            </div>
+            <img className={styles.cover} src="" alt=""/>
+            <button className={styles.coverBtn}>Смотреть</button>
         </div>
         <div className={styles.description}>
-            <div className={styles.title}>
-                <h3>Название проекта</h3>
-            </div>
+            <span>Название проекта</span>
             <span>Краткое описание</span>
         </div>
     </div>
