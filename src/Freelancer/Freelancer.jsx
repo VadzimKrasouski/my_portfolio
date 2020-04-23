@@ -4,7 +4,7 @@ import styles from './Freelancer.module.css'
 const Freelancer = () => (
     <div className={styles.freelancer}>
         <div className={styles.container}>
-            <span>I Am Available For Freelancer</span>
+            <h2>I Am Available For Freelancer</h2>
             <button className={styles.link}>Hire Me</button>
         </div>
     </div>

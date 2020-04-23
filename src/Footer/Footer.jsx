@@ -4,14 +4,14 @@ import styles from './Footer.module.css'
 const Footer = () => (
     <div className={styles.footer}>
         <div className={styles.container}>
-            <span className={styles.title}>Vadzim</span>
+            <h2 className={styles.title}>Vadzim</h2>
             <div className={styles.socialLinks}>
                 <a className={styles.link} href="#"><img src="#" alt="facebook"/></a>
                 <a className={styles.link} href="#"><img src="#" alt="Twitter"/></a>
                 <a className={styles.link} href="#"><img src="#" alt="GitHub"/></a>
                 <a className={styles.link} href="#"><img src="#" alt="LinkedIn"/></a>
             </div>
-            <span className={styles.copyright}>© 2020 All Rights Reserved.</span>
+            <h4 className={styles.copyright}>Copyright © 2020 All Rights Reserved</h4>
         </div>
     </div>
 );

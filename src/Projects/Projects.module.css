@@ -23,7 +23,7 @@
 
 .projectBlocks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100%;
     flex-wrap: wrap;
 }

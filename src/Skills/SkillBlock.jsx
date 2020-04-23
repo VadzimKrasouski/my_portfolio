@@ -5,10 +5,10 @@ const SkillBlock = () => (
     <div className={styles.skillBlock}>
         <div className={styles.skillTitle}>
                 <img className={styles.icon} src="" alt=""/>
-                <span className={styles.title}>React</span>
+                <h2 className={styles.title}>React</h2>
         </div>
         <div className={styles.description}>
-            <span>Подробное описание навыков, талантов и лесть о себе любимом</span>
+            <h4>Подробное описание навыков, талантов и лесть о себе любимом</h4>
         </div>
     </div>
 );

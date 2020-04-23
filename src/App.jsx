@@ -5,7 +5,7 @@ import Main from "./Main/Main";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Freelancer from "./Freelancer/Freelancer";
-import Contacts from "./Contacts/Contacts";
+import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
 
 const App = () => (
@@ -16,7 +16,7 @@ const App = () => (
             <Skills/>
             <Projects/>
             <Freelancer/>
-            <Contacts/>
+            <Contact/>
             <Footer/>
         </div>
     </div>

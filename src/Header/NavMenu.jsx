@@ -5,8 +5,8 @@ const NavMenu = () => (
     <div className={styles.navMenu}>
         <a href="#" className={styles.link}>Home</a>
         <a href="#" className={styles.link}>Skills</a>
-        <a href="#" className={styles.link}>Projects</a>
-        <a href="#" className={styles.link}>Contacts</a>
+        <a href="#" className={styles.link}>Works</a>
+        <a href="#" className={styles.link}>Contact</a>
     </div>
 );
 

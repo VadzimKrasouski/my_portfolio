@@ -8,8 +8,8 @@ const ProjectBlock = () => (
             <button className={styles.coverBtn}>Смотреть</button>
         </div>
         <div className={styles.description}>
-            <span>Название проекта</span>
-            <span>Краткое описание</span>
+            <h3>Название проекта</h3>
+            <h4>Краткое описание</h4>
         </div>
     </div>
 );

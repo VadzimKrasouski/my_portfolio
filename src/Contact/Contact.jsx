@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Contacts.module.css'
+import styles from './Contact.module.css'
 
-const Contacts = () => (
-    <div className={styles.contacts}>
+const Contact = () => (
+    <div className={styles.contact}>
         <div className={styles.container}>
-            <span className={styles.title}>Контакты</span>
+            <h2 className={styles.title}>Контакты</h2>
             <form className={styles.contactForm}>
                 <input className={styles.name} type="text" placeholder="Name"/>
                 <input className={styles.email} type="email" placeholder="E-mail"/>
@@ -15,4 +15,4 @@ const Contacts = () => (
     </div>
 );
 
-export default Contacts;
+export default Contact;

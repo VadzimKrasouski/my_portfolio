@@ -5,7 +5,7 @@ import ProjectBlock from "./ProjectBlock";
 const Projects = () => (
     <div className={styles.projects}>
         <div className={styles.container}>
-            <span className={styles.title}>My Projects</span>
+            <h2 className={styles.title}>My Projects</h2>
             <div className={styles.projectBlocks}>
                 <ProjectBlock/>
                 <ProjectBlock/>
