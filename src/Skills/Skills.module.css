@@ -30,3 +30,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1132px) {
+    .skillBlocks {
+        justify-content: space-around;
+    }
+}

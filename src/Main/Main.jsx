@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Main.module.css'
+import hero from './hero.jpg'
 
 const Main = () => (
     <div className={styles.main}>
@@ -10,7 +11,7 @@ const Main = () => (
                 <span>Я Front-end разработчик.</span>
             </div>
             <div className={styles.photo}>
-                <img src="" alt=""/>
+                <img src={hero} alt="hero"/>
             </div>
         </div>
     </div>

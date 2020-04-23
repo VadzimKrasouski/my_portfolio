@@ -27,3 +27,20 @@
     height: 100%;
     flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1004px){
+    .projectBlocks {
+        justify-content: center;
+    }
+}
