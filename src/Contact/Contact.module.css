@@ -18,7 +18,7 @@
 
 .title {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     width: 40%;
     border: 1px solid
 }
@@ -32,14 +32,18 @@
 }
 
 .name {
+    box-sizing: border-box;
     width: 100%;
 }
 
 .email {
+    box-sizing: border-box;
     width: 100%;
 }
 
 .message {
+    box-sizing: border-box;
+
     width: 100%;
 }
 
