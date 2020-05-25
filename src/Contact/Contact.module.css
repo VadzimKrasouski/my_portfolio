@@ -31,19 +31,8 @@
     align-items: center;
 }
 
-.name {
+.contactForm input, .contactForm textarea {
     box-sizing: border-box;
-    width: 100%;
-}
-
-.email {
-    box-sizing: border-box;
-    width: 100%;
-}
-
-.message {
-    box-sizing: border-box;
-
     width: 100%;
 }
 

@@ -1,6 +1,6 @@
 .projects {
     min-height: 100vh;
-    background-color: #b152ff;
+    background-color: #f9f9ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,15 @@
     border: 1px solid;
     background-color: #f2f2f2;
     text-align: center;
+}
+
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 70px;
+    font-size: 45px;
+    line-height: 44px;
 }
 
 .projectBlocks {

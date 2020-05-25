@@ -6,9 +6,9 @@ const Contact = () => (
         <div className={styles.container}>
             <h2 className={styles.title}>Контакты</h2>
             <form className={styles.contactForm}>
-                <input className={styles.name} type="text" placeholder="Name"/>
-                <input className={styles.email} type="email" placeholder="E-mail"/>
-                <textarea className={styles.message} rows="7" placeholder="Your message"/>
+                <input type="text" placeholder="Name"/>
+                <input type="email" placeholder="E-mail"/>
+                <textarea rows="7" placeholder="Your message"/>
                 <button className={styles.btnSubmit} type="submit">Send message</button>
             </form>
         </div>
