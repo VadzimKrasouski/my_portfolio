@@ -11,3 +11,125 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+::-moz-selection { background-color: #e45447; color: #fff }
+
+::selection { background-color: #e45447; color: #fff }
+
+::-webkit-input-placeholder {color: #777777;font-weight: 300 }
+
+:-moz-placeholder {
+  color: #777777;
+  opacity: 1;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  color: #777777;
+  opacity: 1;
+  font-weight: 300; }
+
+:-ms-input-placeholder { color: #777777; font-weight: 300 }
+
+::-ms-input-placeholder { color: #777777; font-weight: 300 }
+
+body {
+  font-family: "Comic Sans MS";
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.625em;
+  position: relative;
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1, .h1 { font-size: 36px }
+
+h2, .h2 { font-size: 30px }
+
+h3, .h3 { font-size: 24px }
+
+h4, .h4 { font-size: 18px }
+
+h5, .h5 { font-size: 16px }
+
+h6, .h6 { font-size: 14px }
+
+.img { max-width: 100% }
+
+.clear { clear: both }
+
+/*a,*/
+/*:after,*/
+/*:before,*/
+/*.transition { @include transition(.3s) }*/
+
+a:focus, a:hover { text-decoration: none }
+
+ul, ol { list-style: none }
+
+.sectionPadding {  padding: 90px 0 }
+
+.mb50 { margin-bottom: 50px }
+
+.mt50 { margin-top: 50px }
+
+.skyBlue { background: #f9f9ff }
+
+.title { text-align: center }
+
+.title h2 {
+  color: #222222;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 70px;
+  font-size: 45px;
+  line-height: 44px;
+}
+.title h2::before,
+.title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transition: all .3s ease 0s;
+/*@include transform(translateX(-50%));*/
+  background: #e45447;
+}
+.title h2::before {
+  bottom: -31px;
+  width: 100px;
+  height: 2px;
+}
+.title h2::after {
+  bottom: -35px;
+  width: 10px;
+  height: 10px;
+  border-radius: 8px;
+}
+.title p {
+  max-width: 540px;
+  margin: 0 auto;
+}

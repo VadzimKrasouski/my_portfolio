@@ -1,35 +1,85 @@
 .projectBlock {
-    width: 400px;
-    background-color: #d3d3d3;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    /*border: 1px solid;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+    min-height: 1px;
+    cursor: pointer;
+
 }
 
 .projectCover {
-    height: 300px;
+    height: 100%;
     background-color: #f2f2f2;
+    /*background-image: url('../assets/images/default.jpg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    opacity: 0.9;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+
+.overlay a {
+    display: block;
+    height: 100%;
+    align-items: center;
+}
+.projectCover:hover .overlay {
+    top: 20px;
+    background: #e45447;
+    left: 20px;
+   visibility: visible;
 }
 
 .cover {
     height: 100%;
 }
 
-.coverBtn {
-
+.description {
+    position: absolute;
+    bottom: 44px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    line-height: 1.625em;
+    font-size: 14px;
+    left: 80px;
+    color: #ffffff;
+    opacity: 0;
+    transition: all .3s ease 0s;
+    z-index: 99;
 }
 
-.description {
-    height: 100%;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+.description h3 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.projectCover:hover .description {
+    opacity: 1;
+    bottom: 24px;
+    left: 60px;
 }
 
 
