@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Contact.module.css'
+import styles from './Contact.module.scss'
 import Title from "../Common/Components/title/Title";
 
 const Contact = () => (
@@ -10,10 +10,11 @@ const Contact = () => (
                 <input type="text" placeholder="Name"/>
                 <input type="email" placeholder="E-mail"/>
                 <textarea rows="7" placeholder="Your message"/>
-                <button className={styles.btnSubmit} type="submit">Send message</button>
+                <button className={`${styles.btn} ${styles.radius_btn}`}
+                        type="submit">Send message</button>
             </form>
         </div>
     </div>
 );
 
-export default Contact;
+export default Contact

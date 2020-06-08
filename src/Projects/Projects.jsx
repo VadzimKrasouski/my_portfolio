@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Projects.module.css'
+import styles from './Projects.module.scss'
 import Title from '../Common/Components/title/Title';
 import ProjectBlock from "./ProjectBlock";
 import socialImg from '../assets/images/socialNetwork.jpg';
@@ -7,7 +7,6 @@ import todoListImg from '../assets/images/todoList.jpg'
 import counterImg from  '../assets/images/counter.png'
 
 const Projects = () => {
-    const socialNetworkImg = '../assets/images/socialNetwork.jpg'
     return (
         <div className={styles.projects}>
             <div className={styles.container}>

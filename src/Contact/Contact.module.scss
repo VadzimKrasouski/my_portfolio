@@ -1,3 +1,4 @@
+@import '../assets/scss/button.scss';
 .contact {
     height: 100vh;
     background-color: #ff6b66;
@@ -30,9 +31,7 @@
     width: 100%;
 }
 
-.btnSubmit {
 
-}
 
 @media screen and (max-width: 520px) {
     .contactForm {
