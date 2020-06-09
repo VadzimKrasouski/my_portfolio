@@ -20,22 +20,22 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 ::selection { background-color: $colorred; color: #fff }
 
-::-webkit-input-placeholder {color: #777777;font-weight: 300 }
+::-webkit-input-placeholder {color: #777777;font-weight: 200 }
 
 :-moz-placeholder {
   color: #777777;
   opacity: 1;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 ::-moz-placeholder {
   color: #777777;
   opacity: 1;
-  font-weight: 300; }
+  font-weight: 200; }
 
-:-ms-input-placeholder { color: #777777; font-weight: 300 }
+:-ms-input-placeholder { color: #777777; font-weight: 200 }
 
-::-ms-input-placeholder { color: #777777; font-weight: 300 }
+::-ms-input-placeholder { color: #777777; font-weight: 200 }
 
 body {
   font-family: $fontbody;
@@ -85,4 +85,8 @@ ul, ol { list-style: none }
 .mt-50 { margin-top: 50px }
 
 .sky-blue { background: #f9f9ff }
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
 
